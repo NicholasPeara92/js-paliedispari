@@ -32,10 +32,9 @@ console.log(total);
 
 console.log(isEven(total));
 
-if (isEven(total) == true && evenOdd == "pari") {
+if (isEven(total) && evenOdd == "pari" || !isEven(total) && evenOdd == "dispari") {
     console.log("hai vinto");
-} else if (isEven(total) == false && evenOdd == "dispari") {
-    console.log("hai vinto");
+
 } else {
     console.log("hai perso");
 
