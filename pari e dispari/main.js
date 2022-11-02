@@ -32,7 +32,7 @@ console.log(total);
 
 console.log(isEven(total));
 
-if (isEven(total) && evenOdd == "pari" || !isEven(total) && evenOdd == "dispari") {
+if ((isEven(total) && evenOdd == "pari") || (!isEven(total) && evenOdd == "dispari")) {
     console.log("hai vinto");
 
 } else {
